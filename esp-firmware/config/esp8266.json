@@ -1,15 +1,15 @@
 {
     "devices": [
         {
-            "name": "Status_Buzzer",
-            "description": "It is used to indicate the status of the device:\n Add status codes here.",
-            "type": "led",
+            "name": "STATUS_BUZZER",
+            "description": "It is used to indicate the state of the device.",
+            "type": "OUTPUT",
             "pin": "D0"
         },
         {
-            "name": "Internal_LED",
+            "name": "BUILTIN_LED",
             "description": "Internal LED on the board",
-            "type": "led",
+            "type": "OUTPUT",
             "pin": "D3"
         }
     ],
